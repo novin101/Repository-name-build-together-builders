@@ -3,30 +3,71 @@ import Image from "next/image";
 
 const Feature206 = () => {
   return (
-    <section className="py-32">
-      <div className="container">
-        <div className="flex flex-col items-center gap-8 text-center">
-          <Badge variant="outline" className="rounded-full">About XENOSCAPERS</Badge>
-          <h2 className="text-4xl font-medium md:text-5xl">Elevating landscapes for over 20 years</h2>
-          <p className="max-w-3xl text-lg text-muted-foreground">
-            Family-run business crafting beautiful landscapes for over 20 years. Trusted by families and businesses in Southern California.
-          </p>
+  <section className="py-32">
+  <div className="container">
+    <div className="flex flex-col items-center gap-8 text-center">
+      <Badge variant="outline" className="rounded-full">
+        About Build Together Builders
+      </Badge>
 
-          <div className="grid w-full max-w-4xl grid-cols-1 gap-6 sm:grid-cols-3">
-            <div className="rounded-2xl bg-muted/80 p-6 border-green-800 border">
-              <div className="text-4xl font-semibold">20+ yrs</div>
-              <div className="text-sm text-muted-foreground">Family-run business</div>
-            </div>
-            <div className="rounded-2xl bg-muted/80 p-6 border-green-800 border">
-              <div className="text-4xl font-semibold">200+</div>
-              <div className="text-sm text-muted-foreground">Reviews</div>
-            </div>
-            <div className="rounded-2xl bg-muted/80 p-6 border-green-800 border">
-              <div className="text-4xl font-semibold">700+</div>
-              <div className="text-sm text-muted-foreground">Projects completed</div>
-            </div>
+      <h2 className="text-4xl font-medium md:text-5xl">
+        Building Trust, Building Together.
+      </h2>
+
+      <p className="max-w-3xl text-lg text-muted-foreground">
+        With over <strong>10 years of construction experience</strong> and more
+        than <strong>300 completed projects</strong>, Build Together Builders
+        proudly serves homeowners throughout Southern California with
+        exceptional craftsmanship, honest communication, and dependable project
+        management. Every project is built with care, precision, and a
+        commitment to exceeding expectations.
+      </p>
+
+      <div className="grid w-full max-w-4xl grid-cols-1 gap-6 sm:grid-cols-3">
+        <div className="rounded-2xl border border-green-800 bg-muted/80 p-6">
+          <div className="text-4xl font-semibold">10+</div>
+          <div className="text-sm text-muted-foreground">
+            Years of Experience
           </div>
         </div>
+
+        <div className="rounded-2xl border border-green-800 bg-muted/80 p-6">
+          <div className="text-4xl font-semibold">300+</div>
+          <div className="text-sm text-muted-foreground">
+            Projects Completed
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-green-800 bg-muted/80 p-6">
+          <div className="text-4xl font-semibold">100%</div>
+          <div className="text-sm text-muted-foreground">
+            Commitment to Quality
+          </div>
+        </div>
+      </div>
+
+          <div className="grid w-full max-w-4xl grid-cols-1 gap-6 sm:grid-cols-3">
+  <div className="rounded-2xl border border-green-800 bg-muted/80 p-6">
+    <div className="text-4xl font-semibold">10+ Years</div>
+    <div className="text-sm text-muted-foreground">
+      Construction Experience
+    </div>
+  </div>
+
+  <div className="rounded-2xl border border-green-800 bg-muted/80 p-6">
+    <div className="text-4xl font-semibold">300+</div>
+    <div className="text-sm text-muted-foreground">
+      Projects Completed
+    </div>
+  </div>
+
+  <div className="rounded-2xl border border-green-800 bg-muted/80 p-6">
+    <div className="text-4xl font-semibold">100%</div>
+    <div className="text-sm text-muted-foreground">
+      Commitment to Quality
+    </div>
+  </div>
+</div>
         <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-4 items-stretch">
           <div className="relative aspect-square md:aspect-auto md:h-full rounded-2xl overflow-hidden md:order-1 xl:order-1">
             <Image
