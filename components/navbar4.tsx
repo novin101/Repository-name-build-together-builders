@@ -27,7 +27,7 @@ import { cn } from "@/lib/utils";
 
 const servicesCategories = [
   {
-    title: "Hardscaping",
+    title: "Construction",
     href: "/hardscaping",
     services: [
       {
@@ -54,7 +54,7 @@ const servicesCategories = [
     ],
   },
   {
-    title: "Landscaping",
+    title: "Outdoor Living",
     href: "/landscaping",
     services: [
       {
@@ -232,7 +232,7 @@ const navigationMenuItems = [
   },
   {
     key: "regions",
-    label: "Regions",
+    label: "Service Areas",
     component: RegionsMenu,
   },
   
@@ -300,19 +300,18 @@ const Navbar4 = () => {
             open ? "sticky top-0 z-[200] bg-background lg:static" : ""
           )}>
             <a
-              href="https://www.xenoscapers.com"
+              href="https://buildtogetherbuilders.com"
               className="flex items-center gap-2"
-              aria-label="Xenoscapers home"
+              aria-label="Build Together Builders Home"
             >
-              <img
-                src="/x-badge.svg"
-                className="max-h-8 w-auto shrink-0 dark:invert"
-                alt=""
-              />
-              <img
-                src="/x-word-logo.svg"
-                className="h-[1.125rem] w-auto max-w-[min(11rem,45vw)] shrink-0 dark:invert sm:h-5"
-                alt=""
+             <Image
+  src="/branding/build-together-builders-logo.png"
+  alt="Build Together Builders"
+  width={240}
+  height={240}
+  priority
+  className="h-16 w-auto object-contain"
+/>
               />
             </a>
             <div className="flex items-center gap-2 xl:gap-8">
@@ -331,7 +330,7 @@ const Navbar4 = () => {
             </div>
             <div className="flex items-center gap-2">
               <Button className="hidden md:block bg-green-700 hover:bg-green-800">
-                <a href="#contact">Get a Free Quote</a>
+                <a href="#contact">Get a Free Estimate</a>
               </Button>
               <Button
                 variant="outline"
@@ -401,7 +400,7 @@ const Navbar4 = () => {
               {/* Mobile menu footer */}
               <div className="mx-[2rem] mt-auto flex flex-col items-center gap-8 py-24">
                 <Button className="bg-green-700 hover:bg-green-800" onClick={() => { setOpen(false); setSubmenu(null); }}>
-                  <a href="#contact">Get a Free Quote</a>
+                  <a href="#contact">Get a Free Estimate</a>
                 </Button>
               </div>
             </div>
